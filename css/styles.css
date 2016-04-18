@@ -1,0 +1,13 @@
+/*body {
+	background-color:#000000;
+}*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+header {
+	color:red;
+	/*width: 100%;*/
+	text-align: center;
+	font-size: 1.75em;
+	margin-top:-20px;
+}
