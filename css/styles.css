@@ -1,13 +1,82 @@
-/*body {
-	background-color:#000000;
-}*/
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 header {
-	color:red;
-	/*width: 100%;*/
+	color:#666666;
 	text-align: center;
 	font-size: 1.75em;
-	margin-top:-20px;
+	margin-bottom:35px;
+	margin-top:15px;
+}
+.main {
+	width:100%;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.row-lg, .row-tb, .row.mb .row-tb-wide {
+	float:left;
+	margin-bottom:18px;
+
+}
+h2{
+	border:solid 1px #000000;
+	text-align:center;
+	width:50%;
+	height:35px;
+	position:absolute;
+	padding-top:1px;
+	top:-1px;
+	right:-1px;
+}
+h2#chicken{
+	background-color:#80ffdf;
+}
+h2#beef{
+	background-color:#00ffbf;
+}
+h2#sushi {
+	color:#ffffff;
+	background-color:#00b386 ;
+}
+div.text{
+	position:relative;
+	margin-right:9px;
+	margin-left:9px;
+	background-color:#cccccc;
+	border:solid 1px #000000;
+	padding:40px 15px 15px 15px;
+}
+
+/*large device*/
+@media (min-width: 992px) {
+.row-lg {
+	width:33.33%;
+}
+}
+
+/*tablet*/
+@media (min-width:768px) and (max-width:991px) {
+
+.row-tb-wide {
+	width:100%;
+}
+.row-tb {
+	width:50%;
+}
+
+}
+
+/*mobile*/
+@media (max-width:767px) {
+.row-mb {
+	width:100%;
+}
+
 }
